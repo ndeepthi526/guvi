@@ -13,7 +13,7 @@ class Ideone
 		chr=S.next().charAt(0);
 		if(chr=='a'||chr=='e'||chr=='i'||chr=='o'||chr=='u')
 		{
-			System.out.println("vowel");
+			System.out.println("Vowel");
 		}
 		else
 		{
