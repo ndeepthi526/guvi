@@ -12,15 +12,15 @@ class Ideone
 		num=S.nextInt();
 		if(num>0)
 		{
-			System.out.println("number is positive");
+			System.out.println("Positive");
 		}
 		else if(num<0)
 		{
-			System.out.println("number is negative");
+			System.out.println("Negative");
 		}
 		else
 		{
-		System.out.println("number is zero");
+		System.out.println("Zero");
 		}
 	}
 }
