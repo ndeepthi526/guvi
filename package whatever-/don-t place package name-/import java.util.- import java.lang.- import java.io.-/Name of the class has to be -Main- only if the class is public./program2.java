@@ -18,7 +18,7 @@ class Ideone
 		}
 		else
 		{
-			System.out.println("Odd");			
+			System.out.println("invalid");			
 		}
 	}
 }
