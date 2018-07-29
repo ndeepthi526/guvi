@@ -8,16 +8,19 @@
 		  {
 		  	if(i%j==0)
 		  	{
-		  		count++;
-		  	}
-		  }
-		
+		  			count = 0;
+					break;
+				}
+				else
+				{
+					count = 1;
+				}
+			}
+			if(count == 1)
+			{
+				System.out.println(i);
+			}
 		}
-		if(count==0)
-		{
-			System.out.println(i+"");
-		}
-		}
-}	
-			
-		
+	}
+	
+}
