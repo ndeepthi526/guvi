@@ -1,6 +1,7 @@
-  int num = 370, number, temp, total = 0;
-
-        number = num;
+  int num, number, temp, total = 0;
+Scanner s=new Scanner(System.in);
+num=s.nextInt();
+number = num;
         while (number != 0)
         {
             temp = number % 10;
