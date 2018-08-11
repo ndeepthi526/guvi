@@ -16,7 +16,7 @@ class Ideone
 		h2 =s.nextInt();
 		m2=s.nextInt();
 		h3=h1*60+m1;
-		h4=h2*60+m1;
+		h4=h2*60+m2;
 		d=h3-h4;
 		if(d>60)
 		{
