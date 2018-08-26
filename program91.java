@@ -16,7 +16,7 @@ class Ideone
 	    n3=s.nextInt();
 	    sur=2*((n1*n2)+(n2*n3)+(n3*n1));
 	    vol=n1*n2*n3;
-	    System.out.println(sur);
+	    System.out.println(sur+" ");
 	    System.out.println(vol);
 	    
 	}
