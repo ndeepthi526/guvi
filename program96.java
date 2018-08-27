@@ -14,7 +14,7 @@ class Ideone
 		a=s.nextInt();
 		d=s.nextInt();
 		n=s.nextInt();
-		ap=(n/2)*((2*a)+(n-1)*d);
+		ap=(n*(2*a+(n-1)*d))/2;
 		System.out.println(ap);
 	}
 
