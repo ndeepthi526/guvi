@@ -10,6 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		String str1,str2,str3;
+		
+		
 		Scanner s=new Scanner(System.in);
 		str1=s.next();
 		str2=s.next();
