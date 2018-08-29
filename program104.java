@@ -13,7 +13,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
 		k=s.nextInt();
-		n=p;
+		p=n;
 		for(int i=0;i<k-1;i++)
 		{
 			n=p*n;
