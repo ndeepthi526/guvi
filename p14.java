@@ -9,8 +9,10 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		int a;
 		String str1,str2,str3;
 		Scanner s=new Scanner(System.in);
+		a=s.nextInt();
 		str1=s.next();
 		str2=str1.replaceAll("[aeiouAEIOU]","");
 		str3=new StringBuilder(str2).reverse().toString();
