@@ -34,7 +34,7 @@ class Ideone
 		}
 		for(i=0;i<n;i++)
 		{
-			System.out.println(a[i]);
+			System.out.println(a[i]+" ");
 		}
 	}
 }
