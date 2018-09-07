@@ -14,6 +14,8 @@ class Ideone
 		n=s.nextInt();
 		k=s.nextInt();
 		int a[]=new int[n];
+		
+		
 		for(i=0;i<n;i++)
 		{
 			a[i]=s.nextInt();
@@ -29,7 +31,7 @@ class Ideone
 		}
 		for(i=0;i<n;i++)
 		{
-			System.out.println(a[i]);
+			System.out.println(a[i]+" ");
 		}
 	}
 }
