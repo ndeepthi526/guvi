@@ -16,6 +16,8 @@ class Ideone
 		int a[]=new int[n];
 		for(i=0;i<n;i++)
 		{
+			
+			
 			a[i]=s.nextInt();
 		}
 		for(i=0;i<n;i++)
