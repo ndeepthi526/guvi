@@ -14,7 +14,7 @@ class Ideone
 		n=s.nextInt();
 		k=s.nextInt();
 		d=n>>k;
-		System.out.println(d);
+		System.out.println("%.2f",d);
 		
 		
 	}
